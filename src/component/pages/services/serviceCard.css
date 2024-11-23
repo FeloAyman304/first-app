@@ -1,0 +1,24 @@
+.our .head .text p{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.our{
+    margin-top: 20em;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.card-body:hover{
+    background-color: #fda12b;
+    color: white;
+}
+.card-body:hover a{
+    color: white !important
+    ;
+}
+

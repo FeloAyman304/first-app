@@ -1,0 +1,33 @@
+.home_slide{
+    background-image: url(./img/carousel-2.jpg);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.home_slide::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.581);
+}
+
+.home_slide .container-md{
+    position: relative;
+}
+.home_slide .text h2 {
+    font-size: 20px;
+    color: white;
+}
+.home_slide .text p {
+    font-size: 84px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 20px 0;
+    color: white;
+}
+.home_slide .text ul li{
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+}
